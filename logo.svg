@@ -1,0 +1,34 @@
+<svg viewBox="0 0 320 110" xmlns="http://www.w3.org/2000/svg" aria-label="HOHM Ferronnerie">
+  <!-- ── H MARK avec fer de lance et diamant ── -->
+  <!-- Fer de lance gauche -->
+  <polygon points="18,4 24,18 12,18" fill="#1e1b17"/>
+  <!-- Fer de lance droit -->
+  <polygon points="66,4 72,18 60,18" fill="#1e1b17"/>
+  <!-- Barre gauche -->
+  <rect x="12" y="16" width="12" height="74" rx="1.5" fill="#1e1b17"/>
+  <!-- Barre droite -->
+  <rect x="60" y="16" width="12" height="74" rx="1.5" fill="#1e1b17"/>
+  <!-- Demi-traverse gauche -->
+  <rect x="24" y="42" width="11" height="12" rx="1" fill="#1e1b17"/>
+  <!-- Demi-traverse droite -->
+  <rect x="49" y="42" width="11" height="12" rx="1" fill="#1e1b17"/>
+  <!-- Diamant bronze (ornement ferronnerie) -->
+  <path d="M42 36 L50 48 L42 60 L34 48 Z" fill="#c4892a"/>
+  <!-- Petite pointe basse gauche -->
+  <polygon points="18,92 24,90 12,90" fill="#1e1b17" opacity="0.35"/>
+  <!-- Petite pointe basse droite -->
+  <polygon points="66,92 72,90 60,90" fill="#1e1b17" opacity="0.35"/>
+
+  <!-- ── SÉPARATEUR ── -->
+  <line x1="98" y1="12" x2="98" y2="92" stroke="#1e1b17" stroke-width="0.6" opacity="0.15"/>
+
+  <!-- ── WORDMARK ── -->
+  <!-- HOHM -->
+  <text x="114" y="56" font-family="Georgia,'Times New Roman',serif" font-size="36" font-weight="bold" letter-spacing="8" fill="#1e1b17">HOHM</text>
+  <!-- Filet bronze -->
+  <line x1="114" y1="65" x2="316" y2="65" stroke="#c4892a" stroke-width="0.8" opacity="0.55"/>
+  <!-- FERRONNERIE -->
+  <text x="115" y="80" font-family="Georgia,'Times New Roman',serif" font-size="12.5" letter-spacing="7" fill="#c4892a">FERRONNERIE</text>
+  <!-- Tagline -->
+  <text x="115" y="96" font-family="Georgia,'Times New Roman',serif" font-size="9" letter-spacing="2" fill="#1e1b17" opacity="0.45" font-style="italic">Ferronnerie d'art &amp; Métallerie sur mesure</text>
+</svg>
