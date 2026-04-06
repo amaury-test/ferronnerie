@@ -1,0 +1,14 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond -->
+  <rect width="32" height="32" rx="4" fill="#1e1b17"/>
+  <!-- H barre gauche -->
+  <rect x="4" y="4" width="6" height="24" rx="1" fill="#f5f2ee"/>
+  <!-- H barre droite -->
+  <rect x="22" y="4" width="6" height="24" rx="1" fill="#f5f2ee"/>
+  <!-- Demi-traverse gauche -->
+  <rect x="10" y="13" width="4" height="6" rx="0.5" fill="#f5f2ee"/>
+  <!-- Demi-traverse droite -->
+  <rect x="18" y="13" width="4" height="6" rx="0.5" fill="#f5f2ee"/>
+  <!-- Diamant bronze -->
+  <path d="M16 10 L20 16 L16 22 L12 16 Z" fill="#c4892a"/>
+</svg>
