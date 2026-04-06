@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ferronnerie Jéremy – Serrurerie d'Art, Métallerie & Soudure | Bourbonnais · Allier | Bourgogne · Auvergne · Centre-Val-de-Loire</title>
+  <meta name="description" content="Ferronnerie Jéremy — artisan ferronnier d'art et serrurier qualifié. Portails, escaliers, garde-corps, verrières, tonnelles, mobilier métal, soudure TIG/MIG/électrode. Ferronnerie d'art 17e–18e siècle. Atelier dans le Bourbonnais (Allier), au carrefour de la Bourgogne, de l'Auvergne et du Centre-Val-de-Loire. Livraison France entière." />
+  <meta name="keywords" content="ferronnerie Jeremy, serrurerie Jeremy, ferronnier d'art, soudure TIG inox, soudure MIG acier, soudure aluminium, soudeur artisan, portail fer forgé, escalier métal, garde-corps, verrière atelier, tonnelle métal, gloriette métal, mobilier fer forgé, ferronnerie Bourbonnais, ferronnerie Allier, ferronnerie 03, serrurerie Allier, ferronnier Bourbonnais, ferronnerie Bourgogne, ferronnerie Auvergne, ferronnerie Centre-Val-de-Loire, serrurerie art, ferronnerie 18ème siècle, copie serrure ancienne, réparation métal, réparation remorque, métallerie, découpe plasma, soudure oxyacétylénique, brasage" />
+  <meta name="author" content="Ferronnerie Jéremy" />
+  <link rel="canonical" href="https://www.ferronnerie-jeremy.fr/" />
+  <meta property="og:title" content="Ferronnerie Jéremy – Serrurerie d'Art & Métallerie" />
+  <meta property="og:description" content="Artisan ferronnier d'art, serrurier, soudeur. Portails, escaliers, garde-corps, verrières, mobilier métal. France entière." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="PHOTO-2026-04-06-15-06-58.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ferronnerie Jéremy",
+    "description": "Artisan ferronnier d'art et serrurier qualifié. Portails, escaliers, garde-corps, verrières, tonnelles, mobilier métal sur mesure. Soudure TIG, MIG, électrode. Ferronnerie d'art 17e–18e siècle, copies et rééditions.",
+    "telephone": "+33641567569",
+    "email": "jeremyhohm@gmail.com",
+    "areaServed": "France",
+    "address": { "@type": "PostalAddress", "addressRegion": "Bourbonnais, Allier (03)", "addressLocality": "Bourbonnais", "addressCountry": "FR" },
+    "priceRange": "€€",
+    "keywords": "ferronnerie, serrurerie d'art, fer forgé, métallerie, soudure TIG MIG, portail, escalier métal, garde-corps, verrière"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── RESET ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cream:   #faf8f5;
+      --beige:   #f2ede4;
+      --beige2:  #e8e0d4;
+      --dark:    #1c1a17;
+      --dark2:   #2d2a24;
+      --text:    #1e1b17;
+      --muted:   #7a6f65;
+      --bronze:  #a0671e;
+      --bronze2: #c4892a;
+      --bronze3: #f0d9b0;
+      --white:   #ffffff;
+      --border:  #dfd6c8;
+      --serif:   'Playfair Display', Georgia, serif;
+      --sans:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: var(--sans); background: var(--cream); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.2rem 3rem;
+      background: rgba(250,248,245,0);
+      transition: background 0.4s, box-shadow 0.4s, padding 0.4s;
+    }
+    nav.scrolled {
+      background: rgba(250,248,245,0.97);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 1px 0 var(--border);
+      padding: 0.75rem 3rem;
+    }
+    .nav-logo { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; color: var(--white); transition: color 0.4s; }
+    nav.scrolled .nav-logo { color: var(--dark); }
+    .nav-logo span { color: var(--bronze2); }
+    nav.scrolled .nav-logo span { color: var(--bronze); }
+    .nav-links { display: flex; list-style: none; gap: 2.5rem; }
+    .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.8); transition: color 0.3s; }
+    nav.scrolled .nav-links a { color: var(--muted); }
+    .nav-links a:hover { color: var(--bronze2) !important; }
+    .nav-cta { border: 1px solid rgba(255,255,255,0.5) !important; color: var(--white) !important; padding: 0.4rem 1rem; border-radius: 2px; transition: all 0.3s !important; }
+    nav.scrolled .nav-cta { border-color: var(--bronze) !important; color: var(--bronze) !important; }
+    .nav-cta:hover { background: var(--bronze) !important; color: var(--white) !important; border-color: var(--bronze) !important; }
+    .burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .burger span { display: block; width: 24px; height: 2px; background: var(--white); transition: background 0.4s; }
+    nav.scrolled .burger span { background: var(--dark); }
+
+    /* ─── HERO ─── */
+    #hero { position: relative; height: 100vh; min-height: 640px; display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('PHOTO-2026-04-06-15-06-58.jpg'); background-size: cover; background-position: center 50%; background-attachment: fixed; }
+    .hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(160deg, rgba(20,16,10,0.68) 0%, rgba(20,16,10,0.52) 60%, rgba(20,16,10,0.75) 100%); }
+    .hero-content { position: relative; z-index: 2; max-width: 820px; padding: 0 2rem; animation: fadeUp 1.1s ease both; }
+    .hero-eyebrow { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--bronze3); margin-bottom: 1.4rem; }
+    .hero-title { font-family: var(--serif); font-size: clamp(3rem, 8vw, 5.8rem); font-weight: 700; line-height: 1.05; color: #fff; margin-bottom: 0.3rem; }
+    .hero-title em { font-style: italic; color: var(--bronze3); }
+    .hero-sub { font-family: var(--serif); font-size: clamp(1rem, 2.5vw, 1.35rem); font-style: italic; color: rgba(255,255,255,0.72); margin-bottom: 2.8rem; }
+    .hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn { display: inline-block; padding: 0.9rem 2.2rem; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; border-radius: 2px; transition: all 0.25s; }
+    .btn-gold { background: var(--bronze2); color: #fff; }
+    .btn-gold:hover { background: #d4982f; transform: translateY(-2px); }
+    .btn-ghost { border: 1px solid rgba(255,255,255,0.45); color: #fff; }
+    .btn-ghost:hover { border-color: var(--bronze3); color: var(--bronze3); transform: translateY(-2px); }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 6px; opacity: 0.55; animation: bounce 2.2s infinite; }
+    .hero-scroll span { font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: #fff; }
+    .hero-scroll svg { width: 18px; color: #fff; }
+
+    /* ─── SECTIONS ─── */
+    .section-inner { max-width: 1200px; margin: 0 auto; padding: 6rem 2rem; }
+    .section-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.26em; text-transform: uppercase; color: var(--bronze); margin-bottom: 0.7rem; }
+    .section-title { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.9rem); font-weight: 700; color: var(--dark); line-height: 1.2; margin-bottom: 0.8rem; }
+    .section-title em { font-style: italic; color: var(--bronze); }
+    .section-text { color: var(--muted); font-size: 0.97rem; line-height: 1.85; }
+    .divider { width: 44px; height: 2px; background: var(--bronze2); margin: 1.2rem 0 1.6rem; }
+
+    /* ─── PILLARS ─── */
+    #pillars { background: var(--white); border-bottom: 1px solid var(--border); }
+    .pillars-grid { display: grid; grid-template-columns: repeat(3,1fr); }
+    .pillar { padding: 2.8rem 2.4rem; border-right: 1px solid var(--border); text-align: center; transition: background 0.25s; }
+    .pillar:last-child { border-right: none; }
+    .pillar:hover { background: #fdf9f3; }
+    .pillar-icon { width: 44px; height: 44px; margin: 0 auto 1.3rem; color: var(--bronze); }
+    .pillar h3 { font-family: var(--serif); font-size: 1.1rem; color: var(--dark); margin-bottom: 0.5rem; }
+    .pillar p { font-size: 0.86rem; color: var(--muted); line-height: 1.7; }
+
+    /* ─── ABOUT ─── */
+    #about { background: var(--beige); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .about-img-wrap { position: relative; }
+    .about-img-wrap img { width: 100%; height: 480px; object-fit: cover; border-radius: 3px; box-shadow: 0 20px 60px rgba(0,0,0,0.12); }
+    .about-badge { position: absolute; bottom: -1.2rem; right: -1.2rem; background: var(--bronze); color: #fff; padding: 1.4rem 1.6rem; font-family: var(--serif); font-size: 0.82rem; font-weight: 600; text-align: center; line-height: 1.3; }
+    .about-badge strong { display: block; font-size: 2.2rem; font-weight: 700; }
+    .about-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1.8rem; }
+    .tag { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bronze); border: 1px solid rgba(160,103,30,0.28); padding: 0.28rem 0.75rem; border-radius: 2px; background: rgba(160,103,30,0.04); }
+
+    /* ─── PARALLAX ─── */
+    .parallax-band { height: 380px; background-image: url('PHOTO-2026-04-06-15-07-02.jpg'); background-size: cover; background-position: center 30%; background-attachment: fixed; position: relative; }
+    .parallax-band::after { content: ''; position: absolute; inset: 0; background: rgba(15,12,8,0.62); }
+    .parallax-content { position: relative; z-index: 2; height: 100%; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+    .parallax-quote { font-family: var(--serif); font-size: clamp(1.4rem,3vw,2.3rem); font-style: italic; color: #fff; max-width: 780px; text-align: center; line-height: 1.55; }
+    .parallax-quote::before { content:'\201C'; color: var(--bronze3); font-size: 3.5rem; line-height: 0; vertical-align: -0.55rem; margin-right: 0.15rem; }
+    .parallax-quote::after  { content:'\201D'; color: var(--bronze3); font-size: 3.5rem; line-height: 0; vertical-align: -0.55rem; margin-left:  0.15rem; }
+
+    /* ─── SERVICES ─── */
+    #services { background: var(--white); }
+    .services-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 3.5rem; }
+    .services-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: var(--border); }
+    .svc { background: var(--white); padding: 1.8rem 1.6rem; transition: background 0.22s; }
+    .svc:hover { background: #fdf9f3; }
+    .svc svg { width: 30px; height: 30px; color: var(--bronze); margin-bottom: 0.9rem; }
+    .svc h4 { font-family: var(--serif); font-size: 1rem; color: var(--dark); margin-bottom: 0.35rem; }
+    .svc p { font-size: 0.79rem; color: var(--muted); line-height: 1.65; }
+
+    /* Soudures block special */
+    .soudures-block { margin-top: 1px; background: var(--beige); border-top: 3px solid var(--bronze2); }
+    .soudures-block .section-inner-sub { padding: 2.8rem 3rem; }
+    .soudures-block h3 { font-family: var(--serif); font-size: 1.5rem; color: var(--dark); margin-bottom: 0.5rem; }
+    .soudures-block h3 em { font-style: italic; color: var(--bronze); }
+    .soudures-block > .section-inner-sub > p { font-size: 0.9rem; color: var(--muted); max-width: 680px; margin-bottom: 2rem; line-height: 1.8; }
+    .soudures-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--border); }
+    .soudure-card { background: var(--beige); padding: 1.5rem 1.6rem; transition: background 0.2s; }
+    .soudure-card:hover { background: #f8f2e8; }
+    .soudure-type { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--bronze); margin-bottom: 0.3rem; }
+    .soudure-card h5 { font-family: var(--serif); font-size: 1rem; color: var(--dark); margin-bottom: 0.35rem; }
+    .soudure-card p { font-size: 0.79rem; color: var(--muted); line-height: 1.6; }
+    .soudure-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem; }
+    .soudure-tag { font-size: 0.66rem; background: rgba(160,103,30,0.1); color: var(--bronze); padding: 0.15rem 0.55rem; border-radius: 2px; font-weight: 500; }
+
+    /* ─── GALERIE ─── */
+    #galerie { background: var(--beige); }
+    .gallery-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2.2rem; }
+    .filter-btn { font-size: 0.73rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 1.1rem; border: 1px solid var(--border); background: var(--white); color: var(--muted); border-radius: 2px; cursor: pointer; transition: all 0.2s; }
+    .filter-btn:hover { border-color: var(--bronze2); color: var(--bronze); }
+    .filter-btn.active { background: var(--bronze); border-color: var(--bronze); color: #fff; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+    .g-item { overflow: hidden; position: relative; background: var(--beige2); aspect-ratio: 1; cursor: pointer; }
+    .g-item.hidden { display: none; }
+    .g-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .g-item:hover img { transform: scale(1.07); }
+    .g-caption { position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem 0.9rem 0.8rem; background: linear-gradient(transparent, rgba(15,12,8,0.8)); transform: translateY(100%); transition: transform 0.35s ease; }
+    .g-item:hover .g-caption { transform: translateY(0); }
+    .g-caption h5 { font-family: var(--serif); font-size: 0.88rem; color: #fff; }
+    .g-caption span { font-size: 0.65rem; color: var(--bronze3); letter-spacing: 0.1em; text-transform: uppercase; }
+
+    /* ─── LIGHTBOX ─── */
+    #lightbox { display: none; position: fixed; inset: 0; z-index: 2000; background: rgba(10,8,5,0.94); align-items: center; justify-content: center; padding: 2rem; }
+    #lightbox.open { display: flex; }
+    #lightbox img { max-width: 90vw; max-height: 88vh; object-fit: contain; border-radius: 2px; box-shadow: 0 30px 80px rgba(0,0,0,0.5); }
+    #lb-close { position: absolute; top: 1.2rem; right: 1.5rem; font-size: 2.2rem; color: rgba(255,255,255,0.65); cursor: pointer; line-height: 1; background: none; border: none; transition: color 0.2s; }
+    #lb-close:hover { color: #fff; }
+    #lb-prev, #lb-next { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); color: #fff; font-size: 1.5rem; width: 46px; height: 46px; display: flex; align-items: center; justify-content: center; cursor: pointer; border-radius: 2px; transition: background 0.2s; }
+    #lb-prev:hover, #lb-next:hover { background: rgba(255,255,255,0.2); }
+    #lb-prev { left: 1rem; }
+    #lb-next { right: 1rem; }
+    #lb-caption { position: absolute; bottom: 1.2rem; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.6); font-size: 0.82rem; font-family: var(--serif); font-style: italic; white-space: nowrap; }
+
+    /* ─── ZONE ─── */
+    #zone { background: var(--white); }
+    .zone-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .zone-card { background: var(--beige); border: 1px solid var(--border); padding: 2.8rem; border-radius: 3px; text-align: center; }
+    .zone-card svg { width: 64px; height: 64px; color: var(--bronze); margin: 0 auto 1.2rem; }
+    .zone-card h3 { font-family: var(--serif); font-size: 1.6rem; color: var(--dark); margin-bottom: 0.5rem; }
+    .zone-card p { font-size: 0.87rem; color: var(--muted); line-height: 1.75; }
+    .zone-phone { display: block; font-family: var(--serif); font-size: 1.4rem; font-weight: 600; color: var(--bronze); margin-top: 1.2rem; transition: color 0.2s; }
+    .zone-phone:hover { color: var(--bronze2); }
+    .zone-points { display: flex; flex-direction: column; gap: 1.6rem; }
+    .zone-pt { display: flex; gap: 1rem; align-items: flex-start; }
+    .zone-icon { flex-shrink: 0; width: 42px; height: 42px; background: rgba(160,103,30,0.09); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--bronze); }
+    .zone-icon svg { width: 18px; }
+    .zone-pt h4 { font-size: 0.93rem; font-weight: 600; color: var(--dark); margin-bottom: 0.15rem; }
+    .zone-pt p { font-size: 0.82rem; color: var(--muted); line-height: 1.65; }
+
+    /* ─── CONTACT ─── */
+    #contact { background: var(--beige); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    .contact-items { display: flex; flex-direction: column; gap: 1.8rem; }
+    .c-item { display: flex; gap: 1rem; align-items: flex-start; }
+    .c-icon { flex-shrink: 0; width: 44px; height: 44px; background: rgba(160,103,30,0.09); border: 1px solid rgba(160,103,30,0.18); border-radius: 2px; display: flex; align-items: center; justify-content: center; color: var(--bronze); }
+    .c-icon svg { width: 19px; }
+    .c-item h4 { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.25rem; }
+    .c-item a, .c-item p { font-size: 0.97rem; font-weight: 500; color: var(--dark); transition: color 0.2s; }
+    .c-item a:hover { color: var(--bronze); }
+    form { display: flex; flex-direction: column; gap: 0.9rem; }
+    .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+    .fg { display: flex; flex-direction: column; gap: 0.35rem; }
+    .fg label { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+    .fg input, .fg textarea, .fg select { background: var(--white); border: 1px solid var(--border); border-radius: 2px; padding: 0.75rem 1rem; color: var(--text); font-family: var(--sans); font-size: 0.91rem; transition: border-color 0.25s; -webkit-appearance: none; }
+    .fg input:focus, .fg textarea:focus, .fg select:focus { outline: none; border-color: var(--bronze); }
+    .fg textarea { min-height: 120px; resize: vertical; }
+    .fg select option { background: var(--white); }
+    .f-submit button { width: 100%; padding: 0.95rem; background: var(--bronze); color: #fff; font-family: var(--sans); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; border: none; border-radius: 2px; cursor: pointer; transition: background 0.25s, transform 0.2s; }
+    .f-submit button:hover { background: var(--bronze2); transform: translateY(-1px); }
+    .f-note { font-size: 0.71rem; color: var(--muted); text-align: center; }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--dark2); border-top: 1px solid rgba(255,255,255,0.06); padding: 2.2rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .f-logo { font-family: var(--serif); font-size: 1.05rem; font-weight: 700; color: rgba(255,255,255,0.9); }
+    .f-logo span { color: var(--bronze2); }
+    .f-copy { font-size: 0.71rem; color: rgba(255,255,255,0.35); }
+    .f-links { display: flex; gap: 1.8rem; }
+    .f-links a { font-size: 0.71rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.25s; }
+    .f-links a:hover { color: var(--bronze2); }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp { from { opacity:0; transform:translateY(28px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes bounce { 0%,100% { transform:translateX(-50%) translateY(0); } 50% { transform:translateX(-50%) translateY(7px); } }
+    .reveal { opacity:0; transform:translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+
+    /* ─── MOBILE DRAWER ─── */
+    .drawer { display:none; position:fixed; inset:0; background:rgba(28,26,23,0.98); z-index:999; flex-direction:column; align-items:center; justify-content:center; gap:2rem; }
+    .drawer.open { display:flex; }
+    .drawer a { font-family:var(--serif); font-size:1.7rem; color:rgba(255,255,255,0.9); transition:color 0.25s; }
+    .drawer a:hover { color:var(--bronze2); }
+    .drawer-x { position:absolute; top:1.5rem; right:2rem; font-size:2rem; color:rgba(255,255,255,0.4); background:none; border:none; cursor:pointer; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width:1100px) {
+      .services-grid { grid-template-columns: repeat(2,1fr); }
+      .soudures-grid { grid-template-columns: repeat(2,1fr); }
+      .gallery-grid { grid-template-columns: repeat(3,1fr); }
+    }
+    @media (max-width:768px) {
+      nav { padding:1rem 1.5rem; }
+      nav.scrolled { padding:0.65rem 1.5rem; }
+      .nav-links { display:none; }
+      .burger { display:flex; }
+      .pillars-grid { grid-template-columns:1fr; }
+      .pillar { border-right:none; border-bottom:1px solid var(--border); }
+      .pillar:last-child { border-bottom:none; }
+      .about-grid { grid-template-columns:1fr; gap:3rem; }
+      .about-badge { right:1rem; }
+      .services-intro { grid-template-columns:1fr; gap:1.5rem; }
+      .services-grid { grid-template-columns:repeat(2,1fr); }
+      .soudures-grid { grid-template-columns:1fr; }
+      .soudures-block .section-inner-sub { padding:2rem 1.5rem; }
+      .gallery-grid { grid-template-columns: repeat(2,1fr); }
+      .zone-grid { grid-template-columns:1fr; gap:3rem; }
+      .contact-grid { grid-template-columns:1fr; gap:3rem; }
+      .frow { grid-template-columns:1fr; }
+      footer { flex-direction:column; text-align:center; padding:2rem 1.5rem; }
+      .f-links { justify-content:center; }
+      .parallax-band { background-attachment:scroll; }
+      .hero-bg { background-attachment:scroll; }
+      .section-inner { padding:4rem 1.5rem; }
+    }
+    @media (max-width:480px) {
+      .services-grid { grid-template-columns:1fr; }
+      .gallery-grid { grid-template-columns: repeat(2,1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">Ferronnerie <span>Jéremy</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">L'Atelier</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#galerie">Réalisations</a></li>
+    <li><a href="#zone">Zone</a></li>
+    <li><a href="#contact" class="nav-cta">Devis gratuit</a></li>
+  </ul>
+  <button class="burger" id="burger"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="drawer" id="drawer">
+  <button class="drawer-x" id="dx">&times;</button>
+  <a href="#about"    onclick="cd()">L'Atelier</a>
+  <a href="#services" onclick="cd()">Services</a>
+  <a href="#galerie"  onclick="cd()">Réalisations</a>
+  <a href="#zone"     onclick="cd()">Zone</a>
+  <a href="#contact"  onclick="cd()">Devis gratuit</a>
+</div>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Artisan · Ferronnier d'Art · Serrurier · Soudeur</p>
+    <h1 class="hero-title">Ferronnerie<br><em>Jéremy</em></h1>
+    <p class="hero-sub">Serrurerie d'art &amp; Métallerie sur mesure</p>
+    <div class="hero-actions">
+      <a href="#galerie" class="btn btn-gold">Voir les réalisations</a>
+      <a href="#contact" class="btn btn-ghost">Demander un devis</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Découvrir</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</section>
+
+<!-- ── PILLARS ── -->
+<section id="pillars">
+  <div class="pillars-grid">
+    <div class="pillar">
+      <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      <h3>Savoir-faire d'exception</h3>
+      <p>Du fer forgé 17e–18e siècle aux créations les plus contemporaines, chaque pièce quitte l'atelier avec le soin d'un artisan passionné.</p>
+    </div>
+    <div class="pillar">
+      <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <h3>Devis clairs &amp; tarifs honnêtes</h3>
+      <p>Transparence totale. Chaque devis est détaillé, sans surprise. Un artisan qui respecte son client autant que son métier.</p>
+    </div>
+    <div class="pillar">
+      <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+      <h3>Livraison France entière</h3>
+      <p>Vos ouvrages livrés partout en France grâce à nos transporteurs partenaires. Particuliers, décorateurs, hôtels, châteaux.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="PHOTO-2026-04-06-15-07-03_3.jpg" alt="Escalier et mezzanine fer forgé dans une maison en pierre, Ferronnerie Jéremy" loading="lazy" />
+        <div class="about-badge"><strong>20+</strong>ans de<br>métier</div>
+      </div>
+      <div class="reveal">
+        <p class="section-label">L'Atelier</p>
+        <h2 class="section-title">Un artisan,<br>une <em>passion</em> du métal</h2>
+        <div class="divider"></div>
+        <p class="section-text">Installé dans le <strong>Bourbonnais</strong>, dans l'<strong>Allier</strong>, au carrefour de la <strong>Bourgogne</strong>, de l'<strong>Auvergne</strong> et du <strong>Centre-Val-de-Loire</strong>, Jéremy réalise dans son atelier des ouvrages métalliques de toute nature : de la ferronnerie d'art inspirée des styles 17e et 18e siècle aux réalisations contemporaines les plus audacieuses.</p>
+        <p class="section-text" style="margin-top:1rem;">Qualifié et rigoureux, il collabore avec des <strong>décorateurs d'intérieur</strong> et des architectes, répond à des cahiers des charges exigeants, et livre ses créations dans toute la France grâce à ses partenaires transporteurs.</p>
+        <div class="about-tags">
+          <span class="tag">Fer forgé</span>
+          <span class="tag">Acier</span>
+          <span class="tag">Inox</span>
+          <span class="tag">Aluminium</span>
+          <span class="tag">Soudure TIG · MIG · Électrode</span>
+          <span class="tag">Copies &amp; rééditions</span>
+          <span class="tag">Décorateurs</span>
+          <span class="tag">Sur mesure</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PARALLAX ── -->
+<div class="parallax-band">
+  <div class="parallax-content">
+    <p class="parallax-quote">Chaque ouvrage porte la marque d'un travail soigné, conçu pour durer et pour embellir.</p>
+  </div>
+</div>
+
+<!-- ── SERVICES ── -->
+<section id="services">
+  <div class="section-inner">
+    <div class="services-intro">
+      <div class="reveal">
+        <p class="section-label">Ce que je fais</p>
+        <h2 class="section-title">Tous types de<br><em>réalisations métal</em></h2>
+      </div>
+      <div class="reveal">
+        <p class="section-text">Du portail de château à la table basse contemporaine, de la verrière d'atelier à la gloriette de jardin — le métal n'a pas de limite quand il est entre de bonnes mains.</p>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="15" rx="1"/><path d="M16 7V5a2 2 0 0 0-4 0v2"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
+        <h4>Portails &amp; Grilles</h4>
+        <p>Portails coulissants, battants, portillons. Style classique forgé, contemporain laqué, ou portails de château avec découpages.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+        <h4>Escaliers &amp; Rambardes</h4>
+        <p>Escaliers droits, hélicoïdaux, sur poteau central, marches volantes. Acier brut, inox, bois + métal. Intérieur &amp; extérieur.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18v2H3zM3 16h18v2H3z"/><line x1="12" y1="6" x2="12" y2="18"/></svg>
+        <h4>Garde-corps &amp; Balcons</h4>
+        <p>Garde-corps de balcon, terrasse, mezzanine. Design minimaliste moderne ou ferronnerie d'art ouvragée.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="18"/><path d="M2 9h20M2 15h20M9 3v18M15 3v18"/></svg>
+        <h4>Verrières &amp; Fenêtres métal</h4>
+        <p>Verrières d'atelier, fenêtres style industriel, châssis acier noir. Du style atelier parisien au contemporain épuré.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20h20M4 20V10l8-6 8 6v10"/><path d="M4 10h16"/></svg>
+        <h4>Tonnelles, Pergolas &amp; Auvents</h4>
+        <p>Tonnelle, gloriette, pergola, abri de jardin, auvent vitré, marquise. Structures métal robustes sur mesure.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1z"/><path d="M16 7V5a2 2 0 0 0-4 0v2"/></svg>
+        <h4>Mobilier métal</h4>
+        <p>Tables, chaises, bancs, pieds de table, étagères. Pièces uniques intérieur &amp; extérieur, en série ou entièrement sur mesure.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <h4>Ferronnerie d'Art &amp; Serrurerie</h4>
+        <p>Rééditions 17e–18e siècle, copies de serrures anciennes, ferrures décoratives, lettrages et signalétiques métal.</p>
+      </div>
+      <div class="svc reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        <h4>Réparations &amp; Rénovation métal</h4>
+        <p>Réparation de portails, clôtures, structures métalliques, remorques. Traitement antirouille, repeinture, remise en état.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOUDURES -->
+  <div class="soudures-block">
+    <div class="section-inner-sub">
+      <p class="section-label" style="margin-bottom:0.5rem;">Soudure &amp; Métallerie</p>
+      <h3>Toutes techniques de <em>soudure</em></h3>
+      <p>Jéremy maîtrise l'ensemble des procédés de soudage modernes et traditionnels. Chaque assemblage est choisi selon le matériau, l'épaisseur et la destination de la pièce — pour une solidité et un rendu irréprochables.</p>
+      <div class="soudures-grid">
+        <div class="soudure-card">
+          <p class="soudure-type">Procédé 141</p>
+          <h5>Soudure TIG (TIG Welding)</h5>
+          <p>Soudure à l'arc sous gaz inerte avec électrode tungstène. Précision maximale, cordons propres et esthétiques. Idéale pour l'inox, l'aluminium, le titane et les aciers fins.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Inox</span><span class="soudure-tag">Aluminium</span><span class="soudure-tag">Titane</span><span class="soudure-tag">Haute précision</span></div>
+        </div>
+        <div class="soudure-card">
+          <p class="soudure-type">Procédé 135 / 131</p>
+          <h5>Soudure MIG / MAG</h5>
+          <p>Semi-automatique sous gaz (argon ou CO₂). Rapide et polyvalente, adaptée aux constructions en acier, à la chaudronnerie légère et aux pièces de grandes dimensions.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Acier</span><span class="soudure-tag">Aluminium</span><span class="soudure-tag">Construction métal</span></div>
+        </div>
+        <div class="soudure-card">
+          <p class="soudure-type">Procédé 111</p>
+          <h5>Soudure à l'électrode enrobée (MMA)</h5>
+          <p>Soudage manuel robuste, efficace sur aciers épais, pièces rouillées ou dégradées. Technique de référence pour les réparations lourdes et les structures charpentées.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Acier épais</span><span class="soudure-tag">Réparations</span><span class="soudure-tag">Tout position</span></div>
+        </div>
+        <div class="soudure-card">
+          <p class="soudure-type">Procédé 311</p>
+          <h5>Soudure oxyacétylénique (OA)</h5>
+          <p>Chalumeau oxy-acétylène pour la soudure, le brasage et le cintrage à chaud. Procédé traditionnel de la ferronnerie d'art, idéal pour le travail du fer forgé et les formes complexes.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Fer forgé</span><span class="soudure-tag">Brasage</span><span class="soudure-tag">Cintrage</span></div>
+        </div>
+        <div class="soudure-card">
+          <p class="soudure-type">Brasage fort / Brasage tendre</p>
+          <h5>Brasage &amp; Soudo-brasage</h5>
+          <p>Assemblage de métaux différents (cuivre, laiton, bronze) sans fusion du métal de base. Utilisé pour la plomberie décorative, les pièces de ferronnerie d'art et les éléments ornementaux.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Cuivre</span><span class="soudure-tag">Laiton</span><span class="soudure-tag">Bronze</span><span class="soudure-tag">Décoratif</span></div>
+        </div>
+        <div class="soudure-card">
+          <p class="soudure-type">Thermique / Plasma</p>
+          <h5>Découpe plasma &amp; oxycoupage</h5>
+          <p>Découpe de précision sur acier, inox et aluminium par arc plasma ou jet d'oxygène. Permet des découpages complexes (motifs, silhouettes, inscriptions) dans les tôles et profilés.</p>
+          <div class="soudure-tags"><span class="soudure-tag">Découpe fine</span><span class="soudure-tag">Motifs</span><span class="soudure-tag">Toutes épaisseurs</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALERIE ── -->
+<section id="galerie">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-label">Réalisations</p>
+      <h2 class="section-title">Les <em>créations</em> de l'atelier</h2>
+      <div class="divider"></div>
+      <p class="section-text" style="margin-bottom:2rem;">Toutes les photos ci-dessous sont des réalisations réelles sorties de l'atelier — aucun modèle, aucune simulation.</p>
+    </div>
+
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" data-filter="all">Tout voir</button>
+      <button class="filter-btn" data-filter="portails">Portails &amp; Grilles</button>
+      <button class="filter-btn" data-filter="escaliers">Escaliers</button>
+      <button class="filter-btn" data-filter="garde-corps">Garde-corps &amp; Balcons</button>
+      <button class="filter-btn" data-filter="verrieres">Verrières &amp; Auvents</button>
+      <button class="filter-btn" data-filter="tonnelles">Tonnelles &amp; Pergolas</button>
+      <button class="filter-btn" data-filter="mobilier">Mobilier &amp; Art</button>
+      <button class="filter-btn" data-filter="atelier">Atelier &amp; Fabrication</button>
+    </div>
+
+    <div class="gallery-grid" id="gallery">
+
+      <!-- PORTAILS -->
+      <div class="g-item" data-cat="portails" data-title="Portail coulissant anthracite design contemporain">
+        <img src="PHOTO-2026-04-06-15-06-58.jpg" alt="Portail coulissant anthracite avec inserts bois" loading="lazy"/>
+        <div class="g-caption"><span>Portail</span><h5>Portail coulissant anthracite</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail coulissant — vue de face">
+        <img src="PHOTO-2026-04-06-15-06-58_1.jpg" alt="Portail coulissant design avec inserts bois" loading="lazy"/>
+        <div class="g-caption"><span>Portail</span><h5>Portail coulissant — vue de face</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail coulissant — vue latérale">
+        <img src="PHOTO-2026-04-06-15-06-58_2.jpg" alt="Portail coulissant design — vue latérale" loading="lazy"/>
+        <div class="g-caption"><span>Portail</span><h5>Portail coulissant — vue latérale</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail coulissant en cours de pose">
+        <img src="PHOTO-2026-04-06-15-06-58_3.jpg" alt="Portail coulissant en cours de pose" loading="lazy"/>
+        <div class="g-caption"><span>Portail</span><h5>Portail coulissant — installation</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail battant fer forgé">
+        <img src="PHOTO-2026-04-06-15-06-49.jpg" alt="Portail battant fer forgé" loading="lazy"/>
+        <div class="g-caption"><span>Portail</span><h5>Portail battant fer forgé</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail avec numérotation métal et boîte aux lettres">
+        <img src="PHOTO-2026-04-06-15-06-49_2.jpg" alt="Portail avec numérotation métal forgée" loading="lazy"/>
+        <div class="g-caption"><span>Portail &amp; signalétique</span><h5>Portail + numérotation forgée</h5></div>
+      </div>
+      <div class="g-item" data-cat="portails" data-title="Portail avec motif arbre découpé plasma">
+        <img src="PHOTO-2026-04-06-15-06-59_3.jpg" alt="Portail métal avec motif arbre découpé" loading="lazy"/>
+        <div class="g-caption"><span>Portail découpe</span><h5>Portail motif arbre découpé</h5></div>
+      </div>
+
+      <!-- ESCALIERS -->
+      <div class="g-item" data-cat="escaliers" data-title="Escalier central sur poteau — design contemporain">
+        <img src="PHOTO-2026-04-06-15-07-00_4.jpg" alt="Escalier contemporain sur poteau central acier" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier poteau central — contemporain</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier bois et métal — vue d'ensemble">
+        <img src="PHOTO-2026-04-06-15-07-00_5.jpg" alt="Escalier bois et métal intérieur" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier bois &amp; métal</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier bois et métal — vue générale">
+        <img src="PHOTO-2026-04-06-15-07-00_6.jpg" alt="Escalier bois et métal vue générale" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier bois &amp; métal — vue générale</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier limon métal côté">
+        <img src="PHOTO-2026-04-06-15-07-01.jpg" alt="Escalier limon métal" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier limon métal</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier inox brossé — détail structure">
+        <img src="PHOTO-2026-04-06-15-07-01_1.jpg" alt="Escalier inox brossé détail" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier inox brossé — détail</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier inox et bois — détail fixation">
+        <img src="PHOTO-2026-04-06-15-07-01_2.jpg" alt="Escalier inox et bois détail fixation" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier inox &amp; bois — détail</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier extérieur marches volantes suspendues">
+        <img src="PHOTO-2026-04-06-15-07-00_2.jpg" alt="Escalier extérieur marches suspendues" loading="lazy"/>
+        <div class="g-caption"><span>Escalier ext.</span><h5>Escalier marches volantes</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier extérieur en cours de pose">
+        <img src="PHOTO-2026-04-06-15-07-00_3.jpg" alt="Escalier extérieur en installation" loading="lazy"/>
+        <div class="g-caption"><span>Escalier ext.</span><h5>Escalier extérieur — installation</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier métal dans atelier">
+        <img src="PHOTO-2026-04-06-15-06-59_7.jpg" alt="Escalier métal droit atelier" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier métal droit</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier inox — vue en plongée">
+        <img src="PHOTO-2026-04-06-15-06-59_8.jpg" alt="Escalier inox vue en plongée" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier inox — vue en plongée</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier métal vue de dessus atelier">
+        <img src="PHOTO-2026-04-06-15-07-00.jpg" alt="Escalier métal vue de dessus" loading="lazy"/>
+        <div class="g-caption"><span>Escalier</span><h5>Escalier métal — vue de dessus</h5></div>
+      </div>
+      <div class="g-item" data-cat="escaliers" data-title="Escalier fer forgé dans maison en pierre de taille">
+        <img src="PHOTO-2026-04-06-15-07-03.jpg" alt="Escalier fer forgé maison en pierre" loading="lazy"/>
+        <div class="g-caption"><span>Escalier forgé</span><h5>Escalier forgé — maison en pierre</h5></div>
+      </div>
+
+      <!-- GARDE-CORPS -->
+      <div class="g-item" data-cat="garde-corps" data-title="Mezzanine — escalier et garde-corps forgé — maison en pierre">
+        <img src="PHOTO-2026-04-06-15-07-03_3.jpg" alt="Mezzanine escalier et garde-corps forgé maison pierre" loading="lazy"/>
+        <div class="g-caption"><span>Garde-corps</span><h5>Mezzanine &amp; escalier forgé</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Mezzanine avec garde-corps géométrique forgé">
+        <img src="PHOTO-2026-04-06-15-07-03_2.jpg" alt="Mezzanine garde-corps géométrique forgé" loading="lazy"/>
+        <div class="g-caption"><span>Garde-corps</span><h5>Mezzanine — garde-corps géométrique</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Passerelle avec garde-corps fer forgé ouvragé">
+        <img src="PHOTO-2026-04-06-15-07-03_1.jpg" alt="Passerelle garde-corps fer forgé" loading="lazy"/>
+        <div class="g-caption"><span>Passerelle</span><h5>Passerelle garde-corps forgé</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Garde-corps de fenêtre acier laqué bleu">
+        <img src="PHOTO-2026-04-06-15-06-55_3.jpg" alt="Garde-corps fenêtre acier laqué bleu" loading="lazy"/>
+        <div class="g-caption"><span>Garde-corps</span><h5>Garde-corps fenêtre, acier laqué bleu</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Garde-corps balcon acier noir moderne">
+        <img src="PHOTO-2026-04-06-15-06-55_4.jpg" alt="Garde-corps balcon acier noir" loading="lazy"/>
+        <div class="g-caption"><span>Balcon</span><h5>Garde-corps balcon acier noir</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Balcon garde-corps métal">
+        <img src="PHOTO-2026-04-06-15-06-56_1.jpg" alt="Balcon avec garde-corps métal" loading="lazy"/>
+        <div class="g-caption"><span>Balcon</span><h5>Balcon garde-corps métal</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Terrasse avec garde-corps métal contemporain">
+        <img src="PHOTO-2026-04-06-15-06-57_1.jpg" alt="Terrasse garde-corps métal" loading="lazy"/>
+        <div class="g-caption"><span>Terrasse</span><h5>Terrasse &amp; garde-corps contemporain</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Garde-corps extérieur en cours de pose">
+        <img src="PHOTO-2026-04-06-15-06-59_2.jpg" alt="Garde-corps extérieur en installation" loading="lazy"/>
+        <div class="g-caption"><span>Garde-corps</span><h5>Garde-corps extérieur — pose</h5></div>
+      </div>
+      <div class="g-item" data-cat="garde-corps" data-title="Garde-corps forgé en fabrication atelier">
+        <img src="PHOTO-2026-04-06-15-06-58_6.jpg" alt="Garde-corps forgé en fabrication" loading="lazy"/>
+        <div class="g-caption"><span>Fabrication</span><h5>Garde-corps forgé — en cours</h5></div>
+      </div>
+
+      <!-- VERRIÈRES & AUVENTS -->
+      <div class="g-item" data-cat="verrieres" data-title="Verrière et garde-corps acier noir">
+        <img src="PHOTO-2026-04-06-15-06-56.jpg" alt="Verrière et garde-corps acier" loading="lazy"/>
+        <div class="g-caption"><span>Verrière</span><h5>Verrière &amp; garde-corps acier</h5></div>
+      </div>
+      <div class="g-item" data-cat="verrieres" data-title="Verrière châssis acier noir style atelier">
+        <img src="PHOTO-2026-04-06-15-06-57.jpg" alt="Verrière châssis acier noir" loading="lazy"/>
+        <div class="g-caption"><span>Verrière</span><h5>Verrière châssis acier noir</h5></div>
+      </div>
+      <div class="g-item" data-cat="verrieres" data-title="Auvent vitré structure métal acier">
+        <img src="PHOTO-2026-04-06-15-06-57_2.jpg" alt="Auvent vitré structure métal" loading="lazy"/>
+        <div class="g-caption"><span>Auvent</span><h5>Auvent vitré structure métal</h5></div>
+      </div>
+      <div class="g-item" data-cat="verrieres" data-title="Auvent métal et verre vue extérieure">
+        <img src="PHOTO-2026-04-06-15-06-57_3.jpg" alt="Auvent métal et verre extérieur" loading="lazy"/>
+        <div class="g-caption"><span>Auvent</span><h5>Auvent métal &amp; verre</h5></div>
+      </div>
+      <div class="g-item" data-cat="verrieres" data-title="Terrasse avec auvent vitré et garde-corps acier">
+        <img src="PHOTO-2026-04-06-15-06-57_4.jpg" alt="Terrasse auvents vitrés et garde-corps" loading="lazy"/>
+        <div class="g-caption"><span>Terrasse</span><h5>Terrasse auvent vitré &amp; garde-corps</h5></div>
+      </div>
+      <div class="g-item" data-cat="verrieres" data-title="Marquise fer forgé style ancien — ferronnerie d'art">
+        <img src="PHOTO-2026-04-06-15-07-02_2.jpg" alt="Marquise fer forgé style classique" loading="lazy"/>
+        <div class="g-caption"><span>Marquise forgée</span><h5>Marquise fer forgé style ancien</h5></div>
+      </div>
+
+      <!-- TONNELLES -->
+      <div class="g-item" data-cat="tonnelles" data-title="Gloriette dôme métal terminée dans jardin">
+        <img src="PHOTO-2026-04-06-15-07-02.jpg" alt="Gloriette dôme métal dans jardin" loading="lazy"/>
+        <div class="g-caption"><span>Gloriette</span><h5>Gloriette dôme métal</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Gloriette dôme métal — vue d'ensemble avec salon">
+        <img src="PHOTO-2026-04-06-15-07-02_1.jpg" alt="Gloriette dôme métal vue ensemble" loading="lazy"/>
+        <div class="g-caption"><span>Gloriette</span><h5>Gloriette dôme — vue d'ensemble</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Tonnelle métal avec salon de jardin">
+        <img src="PHOTO-2026-04-06-15-06-55_1.jpg" alt="Tonnelle métal avec tables de jardin" loading="lazy"/>
+        <div class="g-caption"><span>Tonnelle</span><h5>Tonnelle métal avec salon jardin</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Tonnelle métal vue d'ensemble">
+        <img src="PHOTO-2026-04-06-15-06-55_2.jpg" alt="Tonnelle métal vue ensemble" loading="lazy"/>
+        <div class="g-caption"><span>Tonnelle</span><h5>Tonnelle métal — vue d'ensemble</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Grande pergola structure acier en chantier">
+        <img src="PHOTO-2026-04-06-15-06-59_4.jpg" alt="Grande pergola structure acier" loading="lazy"/>
+        <div class="g-caption"><span>Pergola</span><h5>Grande pergola acier — en cours</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Structure pergola acier vue d'ensemble">
+        <img src="PHOTO-2026-04-06-15-06-59_5.jpg" alt="Pergola structure acier vue ensemble" loading="lazy"/>
+        <div class="g-caption"><span>Pergola</span><h5>Structure pergola acier</h5></div>
+      </div>
+      <div class="g-item" data-cat="tonnelles" data-title="Gloriette dôme métal en cours de construction">
+        <img src="PHOTO-2026-04-06-15-07-01_3.jpg" alt="Gloriette dôme en construction" loading="lazy"/>
+        <div class="g-caption"><span>Gloriette</span><h5>Gloriette dôme — en fabrication</h5></div>
+      </div>
+
+      <!-- MOBILIER & ART -->
+      <div class="g-item" data-cat="mobilier" data-title="Salon de jardin métal — tables et chaises fer forgé">
+        <img src="PHOTO-2026-04-06-15-06-55.jpg" alt="Salon de jardin métal tables et chaises forgées" loading="lazy"/>
+        <div class="g-caption"><span>Mobilier</span><h5>Salon jardin — tables &amp; chaises forgées</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Table pieds fer forgé — intérieur maison">
+        <img src="PHOTO-2026-04-06-15-06-58_4.jpg" alt="Table avec pieds fer forgé intérieur" loading="lazy"/>
+        <div class="g-caption"><span>Mobilier</span><h5>Table pieds fer forgé — intérieur</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Lettrage métal découpé Chez Lolo — signalétique">
+        <img src="PHOTO-2026-04-06-15-06-49_1.jpg" alt="Lettrage métal forgé découpé Chez Lolo" loading="lazy"/>
+        <div class="g-caption"><span>Signalétique</span><h5>Lettrage métal découpé main</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Structure table métal en cours de fabrication">
+        <img src="PHOTO-2026-04-06-15-06-57_5.jpg" alt="Structure table métal en cours" loading="lazy"/>
+        <div class="g-caption"><span>Mobilier</span><h5>Structure table métal — en cours</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Pieds de table forgés — vue de dessous">
+        <img src="PHOTO-2026-04-06-15-06-57_6.jpg" alt="Pieds de table forgés vue dessous" loading="lazy"/>
+        <div class="g-caption"><span>Mobilier</span><h5>Pieds de table forgés — détail</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Structure forgée table jardin — autre vue">
+        <img src="PHOTO-2026-04-06-15-06-57_7.jpg" alt="Structure forgée table jardin" loading="lazy"/>
+        <div class="g-caption"><span>Mobilier</span><h5>Table jardin forgée — structure</h5></div>
+      </div>
+      <div class="g-item" data-cat="mobilier" data-title="Support métal pour arbre — création sur mesure">
+        <img src="PHOTO-2026-04-06-15-06-59_6.jpg" alt="Support métal pour arbre sur mesure" loading="lazy"/>
+        <div class="g-caption"><span>Création</span><h5>Support métal pour arbre</h5></div>
+      </div>
+
+      <!-- ATELIER -->
+      <div class="g-item" data-cat="atelier" data-title="Atelier Ferronnerie Jéremy — fabrication en cours">
+        <img src="PHOTO-2026-04-06-15-06-59_1.jpg" alt="Atelier ferronnerie fabrication en cours" loading="lazy"/>
+        <div class="g-caption"><span>Atelier</span><h5>L'atelier — fabrication en cours</h5></div>
+      </div>
+      <div class="g-item" data-cat="atelier" data-title="Réparation soudure — crochet remorque">
+        <img src="PHOTO-2026-04-06-15-06-59.jpg" alt="Réparation soudure crochet remorque" loading="lazy"/>
+        <div class="g-caption"><span>Réparation</span><h5>Soudure réparation remorque</h5></div>
+      </div>
+      <div class="g-item" data-cat="atelier" data-title="Structure métal en cours de fabrication — atelier">
+        <img src="PHOTO-2026-04-06-15-06-58_5.jpg" alt="Structure métal fabrication atelier" loading="lazy"/>
+        <div class="g-caption"><span>Atelier</span><h5>Structure métal — en fabrication</h5></div>
+      </div>
+      <div class="g-item" data-cat="atelier" data-title="Pièces courbées de gloriette — fabrication atelier">
+        <img src="PHOTO-2026-04-06-15-07-02_3.jpg" alt="Pièces courbées gloriette fabrication" loading="lazy"/>
+        <div class="g-caption"><span>Atelier</span><h5>Fabrication gloriette — pièces courbées</h5></div>
+      </div>
+      <div class="g-item" data-cat="atelier" data-title="Structure courbée métal en atelier">
+        <img src="PHOTO-2026-04-06-15-07-02_4.jpg" alt="Structure courbée métal en atelier" loading="lazy"/>
+        <div class="g-caption"><span>Atelier</span><h5>Structure courbée — atelier</h5></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <button id="lb-close">&times;</button>
+  <button id="lb-prev">&#8249;</button>
+  <img id="lb-img" src="" alt="" />
+  <button id="lb-next">&#8250;</button>
+  <p id="lb-caption"></p>
+</div>
+
+<!-- ── ZONE ── -->
+<section id="zone">
+  <div class="section-inner">
+    <div class="zone-grid">
+      <div class="reveal">
+        <p class="section-label">Zone d'intervention</p>
+        <h2 class="section-title">L'atelier au cœur<br>de la <em>France</em></h2>
+        <div class="divider"></div>
+        <div class="zone-points">
+          <div class="zone-pt">
+            <div class="zone-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div>
+              <h4>Atelier dans le Bourbonnais (Allier), au carrefour de la Bourgogne, de l'Auvergne et du Centre-Val-de-Loire</h4>
+              <p>Position centrale idéale pour intervenir dans le centre de la France, et rayonner facilement vers Paris, Lyon, Bordeaux ou Marseille.</p>
+            </div>
+          </div>
+          <div class="zone-pt">
+            <div class="zone-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+            <div>
+              <h4>Livraison partout en France</h4>
+              <p>Partenaires transporteurs spécialisés pour acheminer vos ouvrages en toute sécurité. Pièces emballées et protégées avec soin.</p>
+            </div>
+          </div>
+          <div class="zone-pt">
+            <div class="zone-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <div>
+              <h4>Décorateurs, architectes, hôtels, châteaux</h4>
+              <p>Habitué aux projets complets avec cahier des charges précis. Interlocuteur unique, de la conception jusqu'à la livraison.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zone-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <h3>France entière</h3>
+        <p>Particuliers, professionnels, décorateurs d'intérieur, hôtels, restaurants, châteaux — vos projets livrés où vous le souhaitez.</p>
+        <p style="margin-top:0.8rem;font-size:0.82rem;">Un projet ? Appelez directement :</p>
+        <a href="tel:0641567569" class="zone-phone">06 41 56 75 69</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Parlons de votre<br><em>projet</em></h2>
+        <div class="divider"></div>
+        <p class="section-text" style="margin-bottom:2.5rem;">Devis gratuit et sans engagement. Décrivez votre projet, je vous réponds sous 24 à 48 h.</p>
+        <div class="contact-items">
+          <div class="c-item">
+            <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg></div>
+            <div><h4>Téléphone</h4><a href="tel:0641567569">06 41 56 75 69</a></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><h4>E-mail</h4><a href="mailto:jeremyhohm@gmail.com">jeremyhohm@gmail.com</a></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><h4>Atelier</h4><p>Bourbonnais · Allier (03)<br/>Carrefour Bourgogne · Auvergne · Centre-Val-de-Loire<br/>Livraison France entière</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form onsubmit="handleForm(event)">
+          <div class="frow">
+            <div class="fg"><label>Prénom *</label><input type="text" name="prenom" placeholder="Jean" required /></div>
+            <div class="fg"><label>Nom *</label><input type="text" name="nom" placeholder="Dupont" required /></div>
+          </div>
+          <div class="fg"><label>E-mail *</label><input type="email" name="email" placeholder="jean@email.com" required /></div>
+          <div class="fg"><label>Téléphone</label><input type="tel" name="tel" placeholder="06 XX XX XX XX" /></div>
+          <div class="fg">
+            <label>Type de projet</label>
+            <select name="type">
+              <option value="">-- Sélectionnez --</option>
+              <option>Portail / Grille</option>
+              <option>Escalier / Rambarde</option>
+              <option>Garde-corps / Balcon</option>
+              <option>Verrière / Fenêtre métal</option>
+              <option>Tonnelle / Pergola / Auvent</option>
+              <option>Mobilier métal</option>
+              <option>Ferronnerie d'art / Serrurerie</option>
+              <option>Soudure / Réparation</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="fg"><label>Décrivez votre projet *</label><textarea name="msg" placeholder="Dimensions, style, lieu de livraison, délai souhaité..." required></textarea></div>
+          <div class="f-submit"><button type="submit">Envoyer ma demande de devis</button></div>
+          <p class="f-note">Réponse sous 24–48 h · Devis gratuit &amp; sans engagement</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="f-logo">Ferronnerie <span>Jéremy</span></div>
+  <p class="f-copy">© 2025 Ferronnerie Jéremy · Serrurerie d'Art &amp; Métallerie · Bourbonnais, Allier (03)</p>
+  <div class="f-links">
+    <a href="#about">L'Atelier</a>
+    <a href="#services">Services</a>
+    <a href="#galerie">Réalisations</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<!-- ── JS ── -->
+<script>
+// NAV
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+
+// BURGER
+const burger = document.getElementById('burger');
+const drawer = document.getElementById('drawer');
+burger.addEventListener('click', () => drawer.classList.add('open'));
+document.getElementById('dx').addEventListener('click', () => drawer.classList.remove('open'));
+function cd() { drawer.classList.remove('open'); }
+
+// REVEAL
+const reveals = document.querySelectorAll('.reveal');
+new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' }).observe
+// Fix: observe each element
+reveals.forEach(el => {
+  new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' }).observe(el);
+});
+
+// GALLERY FILTER
+const filterBtns = document.querySelectorAll('.filter-btn');
+const items = document.querySelectorAll('.g-item');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    items.forEach(item => {
+      if (f === 'all' || item.dataset.cat === f) {
+        item.classList.remove('hidden');
+      } else {
+        item.classList.add('hidden');
+      }
+    });
+  });
+});
+
+// LIGHTBOX
+const lb = document.getElementById('lightbox');
+const lbImg = document.getElementById('lb-img');
+const lbCap = document.getElementById('lb-caption');
+let visibleItems = [], currentIdx = 0;
+
+function getVisible() {
+  return Array.from(items).filter(i => !i.classList.contains('hidden'));
+}
+function openLightbox(item) {
+  visibleItems = getVisible();
+  currentIdx = visibleItems.indexOf(item);
+  showLbItem(currentIdx);
+  lb.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function showLbItem(idx) {
+  const item = visibleItems[idx];
+  lbImg.src = item.querySelector('img').src;
+  lbImg.alt = item.dataset.title;
+  lbCap.textContent = item.dataset.title;
+}
+items.forEach(item => item.addEventListener('click', () => openLightbox(item)));
+document.getElementById('lb-close').addEventListener('click', closeLb);
+lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+document.getElementById('lb-prev').addEventListener('click', () => { currentIdx = (currentIdx - 1 + visibleItems.length) % visibleItems.length; showLbItem(currentIdx); });
+document.getElementById('lb-next').addEventListener('click', () => { currentIdx = (currentIdx + 1) % visibleItems.length; showLbItem(currentIdx); });
+document.addEventListener('keydown', e => {
+  if (!lb.classList.contains('open')) return;
+  if (e.key === 'Escape') closeLb();
+  if (e.key === 'ArrowLeft') { currentIdx = (currentIdx - 1 + visibleItems.length) % visibleItems.length; showLbItem(currentIdx); }
+  if (e.key === 'ArrowRight') { currentIdx = (currentIdx + 1) % visibleItems.length; showLbItem(currentIdx); }
+});
+function closeLb() { lb.classList.remove('open'); document.body.style.overflow = ''; }
+
+// FORM
+function handleForm(e) {
+  e.preventDefault();
+  const f = e.target;
+  const subject = encodeURIComponent('Demande de devis — Ferronnerie Jéremy');
+  const body = encodeURIComponent(
+    `Bonjour Jéremy,\n\nNom : ${f.prenom.value} ${f.nom.value}\nTéléphone : ${f.tel.value||'—'}\nType : ${f.type.value||'—'}\n\nMessage :\n${f.msg.value}\n\nEmail : ${f.email.value}`
+  );
+  window.location.href = `mailto:jeremyhohm@gmail.com?subject=${subject}&body=${body}`;
+}
+</script>
+
+</body>
+</html>
